@@ -1,0 +1,30 @@
+body {
+  background-color: #2b59c3;
+}
+#container {
+  display: flex;
+  align-items: center;
+  height: 95vh;
+  justify-content: center;
+  background-color: #f2f7f2;
+  border-radius: 5px;
+}
+#generate {
+  padding: 15px;
+  font-size: large;
+  font-family: Arial;
+  border-radius: 10px;
+  border: none;
+  background-color: #2b59c3;
+  color: #f2f7f2;
+}
+#generate:hover {
+  transition: 1.5s;
+  background-color: #25291c;
+  color: #f2f7f2d6;
+}
+.ideas {
+  font-size: 100px;
+  font: bold;
+  color: rgb(96, 177, 96);
+}
